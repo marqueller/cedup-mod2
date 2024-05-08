@@ -1,15 +1,23 @@
 #elemento1{
     background-color: lightblue;
     padding: 200px;
-    border-radius: 20px;
+    border-radius: 120px;
     font-size: 30px;
-    color: navy;
-
+    color: green;
     transform: translate3d(1%, -50%);
     animation: mover 2s linear infinite alternate;
-}@keyframes mover {
+}
+    #elemento2{color: chartreuse;
+
+    }
+@keyframes mover {
     from{
-        transform: translate3d(-5%, -5%) rotate(360deg);
+        transform: translate(-5%, -5%) rotate(20deg);
         /*posicao final*/
     }
+
+    to{ transform: translate(-50%, -5%) rotate (360deg);
+    }
+
+
 }
