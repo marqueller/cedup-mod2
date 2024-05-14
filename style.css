@@ -1,0 +1,39 @@
+#elemento1 {
+    background-color: pink;
+    padding: 200px;
+    border-radius: 70px;
+    font-size: 30px;
+    color: purple;
+    text-align: center;
+    width: 100%;
+
+
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-1%, -50%);
+
+
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: mover 2s linear infinite alternate;
+
+}
+
+#elemento2 {
+    background-color: pink;
+}
+
+@keyframes mover {
+    from {
+        transform: translate(10%, -5%) rotate(0deg);
+        /* Posição inicial*/
+
+    }
+
+    to {
+        transform: translate(-5%, -5%) rotate(360deg);
+        /* Posição final*/
+    }
+}
